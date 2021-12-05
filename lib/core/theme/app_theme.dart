@@ -8,7 +8,7 @@ class AppTheme {
   const AppTheme._();
 
   static Brightness get currentSystemBrightness =>
-      SchedulerBinding.instance!.window.platformBrightness;
+      SchedulerBinding.instance.window.platformBrightness;
 
   static final lightTheme = ThemeData(
     brightness: Brightness.light,
